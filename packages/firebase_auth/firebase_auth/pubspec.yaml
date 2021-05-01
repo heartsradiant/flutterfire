@@ -18,7 +18,11 @@ dependencies:
       url: git@github.com:heartsradiant/flutterfire
       path: packages/firebase_auth/firebase_auth_platform_interface
   
-  firebase_auth_web: ^1.1.0
+  firebase_auth_web:
+    git:
+      url: git@github.com:heartsradiant/flutterfire
+      path: packages/firebase_auth/firebase_auth_web
+      
   firebase_core: ^1.1.0
   firebase_core_platform_interface: ^4.0.0
   flutter:
